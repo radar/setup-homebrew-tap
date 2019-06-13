@@ -2,9 +2,11 @@
 class Setup < Formula
   desc "Setup your local dev environment with one command."
   homepage ""
-  url "https://github.com/radar/setup/releases/download/0.4.0/setup_0.4.0_darwin_amd64.tar.gz"
-  version "0.4.0"
-  sha256 "e2f6edf7a734a8441d50fcc4059e94fc1d24bff47ae04170b23e660962264c1f"
+  url "https://github.com/radar/setup/releases/download/0.5.0/setup_0.5.0_darwin_amd64.tar.gz"
+  version "0.5.0"
+  sha256 "da4fd8aa61a7068f28ca91d1b23eeb556f9138d4a36cb18baf1b3cb6387b4ef3"
+  
+  depends_on "asdf"
 
   def install
     bin.install "setup"
